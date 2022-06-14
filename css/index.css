@@ -100,9 +100,9 @@ main {
     width: 100px;
     }   
 
-    section h1 {
+    /* section h1 {
         font-size: 1.5rem; 
-    }
+    } */
 
     input {
         font-size: 1rem;
@@ -173,17 +173,19 @@ section {
     margin-top: 10px;
     margin-bottom: 10px;
     font-style: bold;
-    font-size: 2rem;
+    /* font-size: 2rem; */
 }
 
-input {
+/* input {
     font-size: 2rem;
-}
+} */
 footer {
     display: flex;
     justify-content: space-between;
     background-color: #f291df;
     flex-direction: column;
+    
+    
 }
 
 p {
@@ -194,14 +196,15 @@ p {
  
 .banner img{
     text-align: center;
-    width: 2000px;
+    /* width: 2000px; */
     height: auto;
+    max-width: 100%;
 }
 
 ol li {
     margin: 2%;
     font-style: italic;
-    font-size: x-large;
+    /* font-size: x-large; */
     
 }
 form {
@@ -212,11 +215,11 @@ form {
     text-align: center;
     margin: 0%;
     font-family: 'Lobster', cursive;
-    font-size: x-large;
+    /* font-size: x-large; */
 }
 
 .emprendeconmigo {
-    margin-left: 600px;
+    /* margin-left: 600px; */
     text-align: center;
     display: inline-block;
 }
@@ -239,12 +242,12 @@ form {
     text-align: center;
     font-style: italic;
     margin-right: 2%;
-    font-size: x-large;
+    /* font-size: x-large; */
 }
 
 .lista {
     text-align: center;
-    font-size: x-large;
+    /* font-size: x-large; */
 }
 
 .fin {
