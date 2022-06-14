@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,200;0,400;1,100&display=swap" rel="stylesheet">
 </head>
 <body> 
@@ -39,22 +40,30 @@
     <!-- Fin de la barra logo + nav -->
 <main>
     <div class="gallery-container"> 
-        <div class="div1">
+        <div class="div1"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <img src="./IMG/image1.png" alt="Chau horno hola Essen" class="gallery__img">
         </div>
-        <div class="div2">
+        <div class="div2"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <img src="./IMG/image2.jpg" alt="Foto de sarten flip" class="gallery__img">
         </div>
-        <div class="div3">
+        <div class="div3"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <img src="./IMG/image3.jpg" alt="olla 24cm con savarin" class="gallery__img">
         </div>
-        <div class="div4">
+        <div class="div4"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <img src="./IMG/image5.jpg" alt="bifera" class="gallery__img">
         </div>
     </div> 
     <br>
     <div class="video"> 
-        <iframe width="727" height="409" src="https://www.youtube.com/embed/z2iCyS-VrwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/z2iCyS-VrwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>   
     <section>
          <h3> Suscribite para recibir ofertas y novedades </h3>
@@ -85,5 +94,9 @@
             </a>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
