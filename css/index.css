@@ -117,7 +117,6 @@ main {
 
    .copyright {
        font-size: 1rem;
-       align-items: center;
        text-align: center;
    }
 
@@ -206,27 +205,14 @@ p {
 }
 
 #texto ul li {
-    margin: 5px;
-    font-style: bold;   
+    margin: 0.5em;
     text-decoration: none;
     font-family: poppins;
     font-size: small
 }
 
-form {
-    text-align: center;
-    justify-content: center;
-}
-
 .escribime {
-    text-align: center;
-    margin: 0%;
     font-family: 'Lobster', cursive;
-}
-
-.emprendeconmigo {
-    text-align: center;
-    justify-content: center;
 }
 
 .barby {
@@ -247,10 +233,6 @@ form {
     text-align: center;
     font-family: poppins;
 }
-
-.fin {
-    margin-top: 5%; 
- } 
 
 .dulce {
     font-family: 'Lobster', cursive;
