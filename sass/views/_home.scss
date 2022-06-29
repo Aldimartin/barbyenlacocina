@@ -1,0 +1,44 @@
+/* INDEX */
+/* GRIDS */
+
+
+   
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: $spacing-xsmall;
+    grid-row-gap: $spacing-xsmall;
+
+    .gallery__img {
+        margin-top: $spacing-xsmall;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       }
+    }
+       
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+   
+   /* FIN GRIDS */
+   
+.video {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+   
+section {
+    text-align: center;
+    margin-top: $spacing-xsmall;
+    margin-bottom: $spacing-xsmall;
+    font-style: bold;
+    font-size: $text-base;
+}
+   
+form {
+    justify-content: center;
+}

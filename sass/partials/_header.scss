@@ -1,0 +1,22 @@
+/* HEADER */
+body header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid crimson;
+    background-color: $primary;
+}
+
+header .header__img {
+    max-width: 150px;
+}
+
+header nav .menu {
+    display: flex;
+    gap: $spacing-small;
+}
+
+header .menu .menu__link {
+    font-size: $text-medium;
+}
+/* FIN HEADER */

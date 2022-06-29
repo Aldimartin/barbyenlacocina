@@ -1,0 +1,29 @@
+/* Normalize */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+body a {
+    font-family: 'Poppins', sans-serif; 
+} 
+
+.menu .menu__link {
+    font-size: 2rem;
+    text-decoration: none;
+    color: $text-color;
+}

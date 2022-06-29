@@ -1,0 +1,13 @@
+/* FOOTER */
+body footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $secondary;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font-primary;
+}
+
+p {
+    font-size: $text-medium;
+}
