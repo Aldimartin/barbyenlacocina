@@ -18,3 +18,14 @@ $text-large:5.2em;
 $text-medium:2rem;
 $text-base:1.6em;
 $text-small:1.4em;
+
+// MAPS
+$fonts: (
+    primaria: 'Poppins',
+    secundaria: 'Lobster',
+);
+
+// EXTEND
+.border-video{
+    border: solid 3px black;
+}

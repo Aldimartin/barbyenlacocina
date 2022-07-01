@@ -1,8 +1,6 @@
 /* HEADER */
 body header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    @include flex(center, space-around);
     border-bottom: 3px solid crimson;
     background-color: $primary;
 }

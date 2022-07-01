@@ -11,12 +11,12 @@
 #texto ul li {
     margin: 0.5em;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em
+    font-family: map-get($fonts, primaria);
+    font-size: 1em;
 }
 
 .escribime {
-    font-family: 'Lobster', cursive;
+    font-family: map-get($fonts, secundaria);
 }
 
 .barby {

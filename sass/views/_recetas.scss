@@ -5,6 +5,10 @@
     text-align: center;
 }
 
+.recetas_video {
+@extend .border-video;
+}
+
 video {
     width: 300px;
     justify-content: center;

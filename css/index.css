@@ -1,4 +1,7 @@
 /* MiSC */
+.border-video, .recetas_video {
+  border: solid 3px black; }
+
 /* Normalize */
 * {
   margin: 0%;
@@ -127,11 +130,11 @@ video {
 #texto ul li {
   margin: 0.5em;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins";
   font-size: 1em; }
 
 .escribime {
-  font-family: 'Lobster', cursive; }
+  font-family: "Lobster"; }
 
 .barby {
   text-align: center;
