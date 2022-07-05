@@ -1,7 +1,7 @@
 /* RECETAS */
 .dulce {
-    font-family: 'Lobster', cursive;
-    font-size: 2.4em;
+    font-family: $font-secondary;
+    font-size: $text-medium;
     text-align: center;
 }
 
@@ -12,6 +12,6 @@
 video {
     width: 300px;
     justify-content: center;
-    margin: 1em;
+    margin: $spacing-xsmall;
 } 
 /* FIN RECETAS */

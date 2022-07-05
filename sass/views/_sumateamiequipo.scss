@@ -8,20 +8,24 @@
     max-width: 100%;
 }
 
-#texto ul li {
-    margin: 0.5em;
+#texto {
     text-decoration: none;
     font-family: map-get($fonts, primaria);
-    font-size: 1em;
+    font-size: $text-small;
+    padding: $spacing-medium;
+    border: 2px solid crimson;
+    margin: $spacing-small
 }
 
 .escribime {
     font-family: map-get($fonts, secundaria);
+    text-align: center;
+    padding: $spacing-medium;
 }
 
 .barby {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: $spacing-xsmall;
 }
 
 .row {

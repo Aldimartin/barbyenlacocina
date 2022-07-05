@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family:'Poppins', sans-serif;
+    font-family:$font-primary;
 }
 
 ul { 
@@ -19,11 +19,11 @@ ul {
 }
 
 body a {
-    font-family: 'Poppins', sans-serif; 
+    font-family: $font-primary; 
 } 
 
 .menu .menu__link {
-    font-size: 2rem;
+    font-size: $spacing-small;
     text-decoration: none;
     color: $text-color;
 }

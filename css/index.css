@@ -12,13 +12,13 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 ul {
   list-style-type: none; }
 
 body a {
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 .menu .menu__link {
   font-size: 2rem;
@@ -42,7 +42,7 @@ header nav .menu {
   gap: 2rem; }
 
 header .menu .menu__link {
-  font-size: 2rem; }
+  font-size: 2em; }
 
 /* FIN HEADER */
 /* FOOTER */
@@ -55,7 +55,7 @@ body footer {
   font-family: "Poppins", sans-serif; }
 
 p {
-  font-size: 2rem; }
+  font-size: 2em; }
 
 /* VIEWS */
 /* INDEX */
@@ -102,23 +102,27 @@ form {
 
 /* SOBRE MI */
 .fotobarby {
-  text-align: center; }
+  text-align: center;
+  margin-top: 2rem; }
 
 .sobremi {
-  text-align: center;
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6em;
+  padding: 30px;
+  border: 2px solid crimson;
+  margin: 20px; }
 
 /* FIN SOBRE MI */
 /* RECETAS */
 .dulce {
-  font-family: 'Lobster', cursive;
-  font-size: 2.4em;
+  font-family: "Lobster", cursive;
+  font-size: 2em;
   text-align: center; }
 
 video {
   width: 300px;
   justify-content: center;
-  margin: 1em; }
+  margin: 1rem; }
 
 /* FIN RECETAS */
 /* SUMATE A MI EQUIPO */
@@ -127,14 +131,18 @@ video {
   height: auto;
   max-width: 100%; }
 
-#texto ul li {
-  margin: 0.5em;
+#texto {
   text-decoration: none;
   font-family: "Poppins";
-  font-size: 1em; }
+  font-size: 1.4em;
+  padding: 2.4rem;
+  border: 2px solid crimson;
+  margin: 2rem; }
 
 .escribime {
-  font-family: "Lobster"; }
+  font-family: "Lobster";
+  text-align: center;
+  padding: 2.4rem; }
 
 .barby {
   text-align: center;
@@ -156,13 +164,13 @@ video {
   section h1 {
     font-size: 2em; }
   input {
-    font-size: 1.5em; }
+    font-size: 1.4em; }
   .copyright {
-    font-size: 1.5em; }
+    font-size: 1.4em; }
   #texto {
-    font-size: 1.5em; }
+    font-size: 1.4em; }
   .sobremi {
-    font-size: 1.5em; } }
+    font-size: 1.4em; } }
 
 @media screen and (max-width: 600px) {
   header {
@@ -172,7 +180,7 @@ video {
     align-items: center;
     gap: 0; }
   header .menu .menu__link {
-    font-size: 1.4rem; }
+    font-size: 1.4em; }
   .header__img {
     width: 100px; }
   input {
@@ -181,10 +189,16 @@ video {
     font-size: 1em;
     text-align: center; }
   #texto {
-    font-size: 1em; }
+    font-size: 0.5em;
+    padding: 1rem;
+    border: 2px solid crimson;
+    margin: 2rem; }
   .sobremi {
     font-size: 1em;
-    display: flex; }
+    display: flex;
+    padding: 1rem;
+    border: 2px solid crimson;
+    margin: 2rem; }
   .fotobarby {
     justify-content: center; } }
 

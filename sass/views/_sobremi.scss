@@ -2,10 +2,14 @@
 /* SOBRE MI */
 .fotobarby {
     text-align: center;
+    margin-top: $spacing-small;
 }
 
 .sobremi {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family:$font-primary;
+    font-size: $text-base;
+    padding: 30px;
+    border: 2px solid crimson;
+    margin: 20px;
 }
 /* FIN SOBRE MI */

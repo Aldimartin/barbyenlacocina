@@ -5,30 +5,30 @@
         flex-direction: column;
     }  
     header .menu .menu__link {
-        font-size: 1.4em;
+        font-size: $text-small;
     }
     .header__img {
      width: 100px;
      } 
      
      section h1 {
-         font-size: 2em; 
+         font-size: $text-medium; 
      }
 
      input {
-         font-size: 1.5em;
+         font-size: $text-small;
      }
 
     .copyright {
-        font-size: 1.5em;
+        font-size:$text-small;
     }
 
     #texto {
-        font-size: 1.5em;
+        font-size: $text-small;
     }
 
     .sobremi {
-        font-size: 1.5em;
+        font-size: $text-small;
     }
 
      }
@@ -45,7 +45,7 @@
        gap: 0    
    }
    header .menu .menu__link {
-       font-size: 1.4rem;
+       font-size: $text-small;
    }
 
    .header__img {
@@ -53,21 +53,27 @@
     }   
 
     input {
-        font-size: 1em;
+        font-size: $text-xsmall;
     }
 
    .copyright {
-       font-size: 1em;
+       font-size: $text-xsmall;
        text-align: center;
    }
 
    #texto {
-    font-size: 1em;
+    font-size: $text-xxsmall;
+    padding: $spacing-xsmall;
+    border: 2px solid crimson;
+    margin: $spacing-small
    }
 
    .sobremi {
-    font-size: 1em;
+    font-size: $text-xsmall;
     display: flex;
+    padding: $spacing-xsmall;
+    border: 2px solid crimson;
+    margin: $spacing-small;
    }
 
    .fotobarby {
