@@ -1,12 +1,15 @@
 /* RECETAS */
-.dulce {
-    font-family: $font-secondary;
-    font-size: $text-medium;
-    text-align: center;
+body {
+    display: grid;
+    grid-auto-rows: auto 1fr auto;
+    min-height: 100vh;
+    align-items: center;
 }
 
-.recetas_video {
-@extend .border-video;
+.dulce {
+    font-family: $font-secondary;
+    font-size: $text-large;
+    text-align: center;
 }
 
 video {

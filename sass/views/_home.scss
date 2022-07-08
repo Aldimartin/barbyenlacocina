@@ -39,6 +39,11 @@ section {
     font-size: $text-base;
 }
    
-form {
+form-inline {
     justify-content: center;
+    display: flex;
+}
+
+.form-control {
+    padding: 7.5px;
 }

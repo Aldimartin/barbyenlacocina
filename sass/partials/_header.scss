@@ -17,4 +17,10 @@ header nav .menu {
 header .menu .menu__link {
     font-size: $text-medium;
 }
+
+header .menu .menu__item { 
+    :hover {
+        text-decoration: underline;
+    }
+}
 /* FIN HEADER */

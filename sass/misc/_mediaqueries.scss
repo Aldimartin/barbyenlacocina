@@ -11,14 +11,22 @@
      width: 100px;
      } 
      
-     section h1 {
-         font-size: $text-medium; 
+     .form-inline {
+        flex-direction: column;
+        align-items: center;
      }
 
      input {
          font-size: $text-small;
      }
 
+    #exampleInputEmail2 {
+     margin-left: 2rem;
+    }
+     
+     .form-control {
+        padding: 5px;
+    }
     .copyright {
         font-size:$text-small;
     }
@@ -52,8 +60,21 @@
     width: 100px;
     }   
 
+    .form-inline {
+        flex-direction: column;
+        align-items: center;
+     }
+
     input {
         font-size: $text-xsmall;
+    }
+
+    #exampleInputEmail2 {
+        margin-left: 2rem;
+       }
+
+    .form-control {
+        padding: 2.5px;
     }
 
    .copyright {
@@ -80,5 +101,12 @@
     justify-content: center;
    }
 
+   .dulce {
+    font-size: $text-medium;
+   }
+
+   .row {
+    font-size: $text-small;
+   }
  }
  /* FIN MEDIA QUERIES  */

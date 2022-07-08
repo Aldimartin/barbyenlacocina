@@ -1,7 +1,4 @@
 /* MiSC */
-.border-video, .recetas_video {
-  border: solid 3px black; }
-
 /* Normalize */
 * {
   margin: 0%;
@@ -43,6 +40,9 @@ header nav .menu {
 
 header .menu .menu__link {
   font-size: 2em; }
+
+header .menu .menu__item :hover {
+  text-decoration: underline; }
 
 /* FIN HEADER */
 /* FOOTER */
@@ -97,8 +97,12 @@ section {
   font-style: bold;
   font-size: 1.6em; }
 
-form {
-  justify-content: center; }
+form-inline {
+  justify-content: center;
+  display: flex; }
+
+.form-control {
+  padding: 7.5px; }
 
 /* SOBRE MI */
 .fotobarby {
@@ -114,9 +118,15 @@ form {
 
 /* FIN SOBRE MI */
 /* RECETAS */
+body {
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
+  min-height: 100vh;
+  align-items: center; }
+
 .dulce {
   font-family: "Lobster", cursive;
-  font-size: 2em;
+  font-size: 5.2em;
   text-align: center; }
 
 video {
@@ -129,7 +139,8 @@ video {
 .banner img {
   text-align: center;
   height: auto;
-  max-width: 100%; }
+  max-width: 100%;
+  margin-top: 2rem; }
 
 #texto {
   text-decoration: none;
@@ -149,7 +160,8 @@ video {
   margin-top: 1rem; }
 
 .row {
-  justify-content: center; }
+  justify-content: center;
+  font-size: 2em; }
 
 /* FIN SUMATE A MI EQUIPO*/
 /* MEDIA QUERIES */
@@ -161,10 +173,15 @@ video {
     font-size: 1.4em; }
   .header__img {
     width: 100px; }
-  section h1 {
-    font-size: 2em; }
+  .form-inline {
+    flex-direction: column;
+    align-items: center; }
   input {
     font-size: 1.4em; }
+  #exampleInputEmail2 {
+    margin-left: 2rem; }
+  .form-control {
+    padding: 5px; }
   .copyright {
     font-size: 1.4em; }
   #texto {
@@ -183,8 +200,15 @@ video {
     font-size: 1.4em; }
   .header__img {
     width: 100px; }
+  .form-inline {
+    flex-direction: column;
+    align-items: center; }
   input {
     font-size: 1em; }
+  #exampleInputEmail2 {
+    margin-left: 2rem; }
+  .form-control {
+    padding: 2.5px; }
   .copyright {
     font-size: 1em;
     text-align: center; }
@@ -200,6 +224,10 @@ video {
     border: 2px solid crimson;
     margin: 2rem; }
   .fotobarby {
-    justify-content: center; } }
+    justify-content: center; }
+  .dulce {
+    font-size: 2em; }
+  .row {
+    font-size: 1.4em; } }
 
 /* FIN MEDIA QUERIES  */
