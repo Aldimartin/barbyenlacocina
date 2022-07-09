@@ -104,6 +104,9 @@ section {
 .form-control {
   padding: 7.5px; }
 
+button.btn btn-default {
+  margin-left: 1rem; }
+
 /* SOBRE MI */
 .fotobarby {
   text-align: center;
@@ -118,7 +121,7 @@ section {
 
 /* FIN SOBRE MI */
 /* RECETAS */
-body {
+.page-recetas {
   display: grid;
   grid-auto-rows: auto 1fr auto;
   min-height: 100vh;
